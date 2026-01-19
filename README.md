@@ -2,6 +2,8 @@
 
 Pre-compiled binaries for all major platforms. No dependencies required.
 
+> **Looking for source code?** See the [upload-sdk](https://github.com/DataNodes-To/upload-sdk) repository.
+
 ## Available Binaries
 
 ### Go (Recommended - Fastest & Smallest)
