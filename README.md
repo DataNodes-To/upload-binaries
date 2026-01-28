@@ -20,11 +20,11 @@ Pre-compiled binaries for all major platforms. No dependencies required.
 
 | Platform | Architecture | Filename | Size |
 |----------|--------------|----------|------|
-| Linux | x64 | `datanodes-upload-node-linux-x64` | 45 MB |
+| Linux | x64 | `datanodes-upload-node-linux-x64` | 72 MB |
 | Linux | ARM64 | `datanodes-upload-node-linux-arm64` | 43 MB |
-| macOS | Intel | `datanodes-upload-node-macos-x64` | 50 MB |
+| macOS | Intel | `datanodes-upload-node-macos-x64` | 71 MB |
 | macOS | Apple Silicon | `datanodes-upload-node-macos-arm64` | 45 MB |
-| Windows | x64 | `datanodes-upload-node-win-x64.exe` | 37 MB |
+| Windows | x64 | `datanodes-upload-node-win-x64.exe` | 55 MB |
 
 ### Python
 
@@ -92,4 +92,4 @@ datanodes-upload-windows-amd64.exe myfile.zip YOUR_API_KEY
 |----------|--------|-----|
 | 1st | **Go** | Fastest (885 MB/s), smallest (6 MB), all platforms |
 | 2nd | Python | Good speed (930 MB/s), medium size (10 MB), Linux only |
-| 3rd | Node.js | Good speed (840 MB/s), larger size (45 MB), all platforms |
+| 3rd | Node.js | Good speed (~590 MB/s), larger size (43-72 MB), all platforms |
